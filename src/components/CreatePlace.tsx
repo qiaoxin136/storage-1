@@ -1,7 +1,7 @@
 import type { SyntheticEvent } from "react";
 import { useEffect, useState } from "react";
 import { checkLoginAndGetName } from "../utils/AuthUtils";
-import { NavLink } from "react-router";
+//import { NavLink } from "react-router";
 import { generateClient } from "aws-amplify/data";
 import type { Schema } from "../../amplify/data/resource";
 
